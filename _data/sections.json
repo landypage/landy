@@ -1,0 +1,78 @@
+[
+    {
+        "id": "navigation",
+        "template": "navigation",
+        "enabled": true
+    },
+    {
+        "id": "header",
+        "template": "header",
+        "enabled": true
+    },
+    {
+        "id": "customers",
+        "template": "customers",
+        "enabled": true
+    },
+    {
+        "id": "services",
+        "template": "services",
+        "enabled": true,
+        "navigation": "Services"
+    },
+    {
+        "id": "text-img",
+        "template": "text-img",
+        "enabled": true
+    },
+    {
+        "id": "img-text",
+        "template": "img-text",
+        "enabled": true
+    },
+    {
+        "id": "img-bullets",
+        "template": "img-bullets",
+        "enabled": true
+    },
+    {
+        "id": "bullets-img",
+        "template": "bullets-img",
+        "enabled": true
+    },
+    {
+        "id": "pricing",
+        "template": "pricing",
+        "enabled": true,
+        "navigation": "Pricing"
+    },
+    {
+        "id": "request",
+        "template": "request",
+        "enabled": true,
+        "navigation": "Request"
+    },
+    {
+        "id": "video",
+        "template": "video",
+        "enabled": true
+    },
+    {
+        "id": "about",
+        "template": "about",
+        "enabled": true,
+        "navigation": "About"
+    },
+    {
+        "id": "contact",
+        "template": "contact",
+        "enabled": true,
+        "navigation": "Contact"
+    },
+    {
+        "id": "footer",
+        "template": "footer",
+        "enabled": true
+    }
+    
+]

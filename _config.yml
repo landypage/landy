@@ -30,6 +30,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+jekyll_get:
+  data: about
+  json: 'https://eevkjas2pe.execute-api.us-east-1.amazonaws.com/latest/about'
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
