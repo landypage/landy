@@ -1,0 +1,91 @@
+{
+    "title": "Multiple Pricing Options",
+    "subtitle": "We've prepared pricing plans for all budgets so you can get started right away. They're great for small companies and large organizations",
+    "packages": [{
+            "name": "STARTER",
+            "description": "Just to see what can be achieved",
+            "currency": "$",
+            "price": "199",
+            "period": "monthly",
+            "cta": "REQUEST",
+            "ctaurl": "#your-link",
+            "capabilities": [{
+                    "name": "Improve Your Email Marketing",
+                    "included": true
+                },
+                {
+                    "name": "User And Admin Rights Control",
+                    "included": true
+                },
+                {
+                    "name": "List Building And Cleaning"
+                },
+                {
+                    "name": "Collected Data Management"
+                },
+                {
+                    "name": "More Planning And Evaluation"
+                }
+            ]
+        }, {
+            "name": "MEDIUM",
+            "description": "Very appropriate for the short term",
+            "currency": "$",
+            "price": "299",
+            "period": "monthly",
+            "cta": "REQUEST",
+            "ctaurl": "#your-link",
+            "capabilities": [{
+                    "name": "Improve Your Email Marketing",
+                    "included": true
+                },
+                {
+                    "name": "User And Admin Rights Control",
+                    "included": true
+                },
+                {
+                    "name": "List Building And Cleaning",
+                    "included": true
+                },
+                {
+                    "name": "Collected Data Management",
+                    "included": true
+                },
+                {
+                    "name": "More Planning And Evaluation"
+                }
+            ]
+        }, {
+            "name": "COMPLETE",
+            "description": "Must have for large companies",
+            "currency": "$",
+            "price": "399",
+            "period": "monthly",
+            "cta": "REQUEST",
+            "ctaurl": "#your-link",
+            "label": "Best Value",
+            "capabilities": [{
+                    "name": "Improve Your Email Marketing",
+                    "included": true
+                },
+                {
+                    "name": "User And Admin Rights Control",
+                    "included": true
+                },
+                {
+                    "name": "List Building And Cleaning",
+                    "included": true
+                },
+                {
+                    "name": "Collected Data Management",
+                    "included": true
+                },
+                {
+                    "name": "More Planning And Evaluation",
+                    "included": true
+                }
+            ]
+        }
+
+    ]
+}

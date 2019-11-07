@@ -47,12 +47,6 @@
         "navigation": "Pricing"
     },
     {
-        "id": "request",
-        "template": "request",
-        "enabled": true,
-        "navigation": "Request"
-    },
-    {
         "id": "video",
         "template": "video",
         "enabled": true

@@ -1,0 +1,21 @@
+{
+    "title": "Business Growth Services",
+    "subtitle": "We serve small and medium sized companies in all tech related industries with high quality growth services which are presented below",
+    "services": [
+        {
+            "image": "images/services-icon-1.svg",
+            "title": "Market Analysis",
+            "description": "Our team of enthusiastic marketers will analyse and evaluate how your company stacks against the closest competitors" 
+        },
+        {
+            "image": "images/services-icon-2.svg",
+            "title": "Opportunity Scan",
+            "description": "Once the market analysis process is completed our staff will search for opportunities that are in reach" 
+        },
+        {
+            "image": "images/services-icon-3.svg",
+            "title": "Action Plan",
+            "description": "With all the information in place you will be presented with an action plan that your company needs to follow" 
+        }
+    ]
+}
