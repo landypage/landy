@@ -23,6 +23,7 @@
     <title>Evolo - StartUp HTML Landing Page Template</title>
 
     <!-- Styles -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext"
         rel="stylesheet">
     <link href="{{ site.baseurl }}/css/bootstrap.css" rel="stylesheet">
@@ -30,6 +31,7 @@
     <link href="{{ site.baseurl }}/css/swiper.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/css/magnific-popup.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/css/styles.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/css/admin.css" rel="stylesheet">
 
     <!-- Favicon  -->
     <link rel="icon" href="{{ site.baseurl }}/images/favicon.png">
@@ -54,6 +56,7 @@
     <!-- Scripts -->
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="{{ site.baseurl }}/js/vue.js"></script>
+    <script src="{{ site.baseurl }}/js/animatedModal.js"></script>
     <script src="{{ site.baseurl }}/js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="{{ site.baseurl }}/js/jquery.easing.min.js"></script>
@@ -64,6 +67,7 @@
     <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="{{ site.baseurl }}/js/axios.js"></script>
     <script src="{{ site.baseurl }}/js/scripts.js"></script> <!-- Custom scripts -->
+
     {% for section in site.data.sections %}
     {% if section.enabled %}
     {% if section.id == 'customers' and section.id != 'navigation' and section.id != 'footer' and section.id != 'header' %}
@@ -72,7 +76,8 @@
     </script> 
     {% endif %}
     {% endif %}
-    {% endfor %} 
+    {% endfor %}
+
 </body>
 
 </html>

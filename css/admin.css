@@ -1,0 +1,74 @@
+.fixed-top {
+    position: fixed;
+    top: 54px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.landy-nav {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.landy-nav a {
+    text-decoration: none;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+/************************************
+ * Close button
+************************************/
+.closebt-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.closebt {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.closebt:hover {
+    transform: rotate(90deg);
+}
+
+#item>p {
+    margin: 0px;
+    color: #E74B3D;
+}
+
+.admin-title {
+    margin: 10px;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.admin-body {
+    padding-bottom: 50px;
+}
+
+.admin-buttons button {
+    margin-left: 25px;
+}

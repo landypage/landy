@@ -11,7 +11,7 @@
     },
     {
         "id": "customers",
-        "template": "customers",
+        "template": "customers/template",
         "enabled": true
     },
     {

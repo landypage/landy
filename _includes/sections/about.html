@@ -45,3 +45,21 @@
     </div> <!-- end of container -->
 </div> <!-- end of basic-4 -->
 <!-- end of about -->
+
+{% if include.edit %}
+<!--Settings-->
+<div id="{{ include.id }}-admin">
+    <div class="modal-content container">
+        <div class="row admin-title">
+            {{ include.id }}
+        </div>
+        <div class="row admin-body">
+            {{ include.id }} Test Content
+        </div>
+        <div class="row admin-buttons">
+            <button class="btn-solid-reg">Save</button>
+            <button class="close-{{ include.id }}-admin btn-outline-reg">Close</button>
+        </div>
+    </div>
+</div>
+{% endif %}

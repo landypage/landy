@@ -1,34 +1,40 @@
 ---
-layout: default
+layout: admin
 permalink: /landy
 ---
-<script>
-    function allowDrop(ev) {
-        ev.preventDefault();
-    }
 
-    function drag(ev) {
-        ev.dataTransfer.setData("text", ev.target.id);
-    }
+<div class="landy-nav">
+    <nav class="navbar navbar-expand-lg" style="background-color: #c4d8dc;">
+        <div class="collapse navbar-collapse">
+            <form class="form-inline my-2 my-lg-0" style="padding-left: 4rem;">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">Publish</button>
+            </form>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="padding-left: 20px;">
+                <li class="nav-item active">
+                    <a class="nav-link" href="">Settings</a>
+                </li>
+            </ul>
+            <img src="{{ site.baseurl }}/images/team-member-1.svg" alt="Avatar" class="avatar">
+        </div>
+    </nav>
+</div>
 
-    function drop(ev) {
-        ev.preventDefault();
-        var data = ev.dataTransfer.getData("text");
-        ev.target.appendChild(document.getElementById(data));
-    }
-</script>
 {% for section in site.data.sections %}
 {% if section.enabled %}
-<div class="admin-wrapper">
+<div class="admin-wrapper" id="{{section.id}}">
     {% if section.id != 'navigation' and section.id != 'footer' and section.id != 'header' %}
     <div class="row actionline" style="padding-left: 50px;">
         <div class="move"><i class="fas fa-arrows-alt"></i></div>
-        <div class="settings"><i class="fas fa-cog"></i></div>
+        <div class="settings"><a id="{{ section.id }}-activate" href="#{{section.id}}-admin"><i
+                    class="fas fa-cog"></i></a></div>
         <div class="delete"><i class="fas fa-trash-alt"></i></div>
         <div class="title">{{section.id}}</div>
     </div>
     {% endif %}
     {% include sections/{{section.template}}.html id=section.id edit=true %}
+    {% if section.id == "customers" %}
+        {% include sections/customers/admin.html  id=section.id %}
+    {% endif %}
 </div>
 {% endif %}
 {% endfor %}
