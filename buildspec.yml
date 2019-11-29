@@ -11,6 +11,6 @@ phases:
     commands:
       - bundle exec jekyll b
 artifacts:
-  baseDirectory: _site
+  base-directory: _site
   files:
       - '**/*'
