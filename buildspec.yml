@@ -11,6 +11,7 @@ phases:
     commands:
       - bundle exec jekyll b
 artifacts:
+  name: landy
   base-directory: _site
   files:
       - '**/*'
