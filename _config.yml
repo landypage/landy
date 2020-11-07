@@ -30,9 +30,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+backend_url: 'https://eevkjas2pe.execute-api.us-east-1.amazonaws.com/latest'
+site_id: '4b6304320ed84ba9b7d86402c9f703c3'
 jekyll_get:
   data: site
-  json: 'https://eevkjas2pe.execute-api.us-east-1.amazonaws.com/latest/site/d355a546a76748209cb8f879c3551421'
+  json: 'https://eevkjas2pe.execute-api.us-east-1.amazonaws.com/latest/site/4b6304320ed84ba9b7d86402c9f703c3'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
